@@ -6,5 +6,5 @@
 
 sentence = ["the", "quick", "brown", "fox", "jumped", "over",]
 
-for i in range(3):
+for i in range(2):
     print(sentence[3-i])
