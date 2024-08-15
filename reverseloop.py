@@ -6,6 +6,6 @@
 
 sentence = ["the", "quick", "brown", "fox", "jumped", "over",]
 
-for i in range(6):
-    print(sentence[5-i])
+for i in range(5):
+    print(sentence[4-i])
 
