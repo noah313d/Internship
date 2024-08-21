@@ -10,4 +10,4 @@
 #players_stats.append({"name": "Gunnar Henderson", "Games": 123, "Home Runs": 33})
 #players_stats.append({"name": "Vladimir Guerrero", "Games": 123, "Home Runs": 25})
 
-print.percentage({"44/123", "34/121", "25/124", "39/122", "36/124", "27/110", "25/117", "29/107", "33/123", "25/123"})
+average=({44/123, 34/121, 25/124, 39/122, 36/124, 27/110, 25/117, 29/107, 33/123, 25/123})
