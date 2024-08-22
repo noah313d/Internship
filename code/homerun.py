@@ -9,6 +9,7 @@ players_stats.append({"name": "Yordan Alvarez", "Games": 117, "Home Runs": 25})
 players_stats.append({"name": "Brent Rooker", "Games": 107, "Home Runs": 29})
 players_stats.append({"name": "Gunnar Henderson", "Games": 123, "Home Runs": 33})
 players_stats.append({"name": "Vladimir Guerrero", "Games": 123, "Home Runs": 25})
+players_stats.append({"name": "Babe Ruth", "Games": 120, "Home Runs": 38})
 
 for i in range(10):
     player_games = players_stats[i]["Games"]
