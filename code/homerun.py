@@ -16,8 +16,10 @@ for i in range(10):
     player_name = players_stats[i]["name"]
     player_hr = players_stats[i]["Home Runs"]
 
-    if player_hr/player_games < .250:
-        
+    if player_hr/player_games > .250:
+        print(player_hr/player_games)
+        print(player_name)
+
 
     # print(player_hr/player_games)
 
