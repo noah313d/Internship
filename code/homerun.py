@@ -26,6 +26,7 @@ for player in players_stats:
     games = player["Games"]
     name = player["name"]
     hr = player["Home Runs"]
-if hr/player > .250:
-    print(name)
-    print(hr/games)
+    
+    if hr/games > .250:
+        print(name)
+        print(hr/games)
