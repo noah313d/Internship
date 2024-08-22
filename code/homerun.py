@@ -15,10 +15,13 @@ for i in range(10):
     player_games = players_stats[i]["Games"]
     player_name = players_stats[i]["name"]
     player_hr = players_stats[i]["Home Runs"]
-    print(players_stats[i]["name"])
-    print(players_stats[i]["Home Runs"])
-    print(players_stats[i]["Games"])
-    print(player_hr/player_games)
+
+    if player_hr/player_games < .250:
+        
+
+    # print(player_hr/player_games)
+
+
 # name:(Aaron Judge, Juan Soto, Bobby Witt, Shohei Ohtani, Marcell Ozuna, Rafael Devers, Yordan Alvarez, Brent Rooker, Gunnar Henderson, Vladimir Guerrero)
 # average=({44/123, 34/121, 25/124, 39/122, 36/124, 27/110, 25/117, 29/107, 33/123, 25/123})
 # percantage=({35.77, 28.10, 20.16, 31.97, 29.03, 24.55, 21.37, 27.10, 26.83, 20.33})
