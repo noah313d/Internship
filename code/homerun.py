@@ -11,11 +11,21 @@ players_stats.append({"name": "Gunnar Henderson", "Games": 123, "Home Runs": 33}
 players_stats.append({"name": "Vladimir Guerrero", "Games": 123, "Home Runs": 25})
 players_stats.append({"name": "Babe Ruth", "Games": 120, "Home Runs": 38})
 
-for i in range(10):
-    player_games = players_stats[i]["Games"]
-    player_name = players_stats[i]["name"]
-    player_hr = players_stats[i]["Home Runs"]
+# for i in range(len(players_stats)):
+#     player_games = players_stats[i]["Games"]
+#     player_name = players_stats[i]["name"]
+#     player_hr = players_stats[i]["Home Runs"]
 
-    if player_hr/player_games > .250:
-        print(player_hr/player_games)
-        print(player_name)
+#     if player_hr/player_games > .250:
+#         print(player_hr/player_games)
+#         print(player_name)
+
+
+for player in players_stats:
+    # print(player)
+    games = player["Games"]
+    name = player["name"]
+    hr = player["Home Runs"]
+if hr/player > .250:
+    print(name)
+    print(hr/games)
